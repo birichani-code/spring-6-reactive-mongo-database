@@ -2,8 +2,8 @@ package birichani_codes.reactivemongo.services;
 
 import birichani_codes.reactivemongo.domain.Beer;
 import birichani_codes.reactivemongo.mappers.BeerMapper;
+import birichani_codes.reactivemongo.mappers.BeerMapperImpl;
 import birichani_codes.reactivemongo.model.BeerDTO;
-import guru.springframework.reactivemongo.mappers.BeerMapperImpl;
 import birichani_codes.reactivemongo.repositories.BeerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
